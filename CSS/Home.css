@@ -404,3 +404,79 @@ body {
   color: #222;
   font-weight: 500;
 }
+
+
+
+
+
+
+
+
+/* Feature Card Group Section */
+.card-group {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 32px;
+  background: #f7f8fa;
+  padding: 48px 0;
+}
+
+.feature-card {
+  background: #fff;
+  border: 1.5px solid #e6e6e6;
+  border-radius: 18px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+  padding: 32px 28px 32px 28px;
+  width: 300px;
+  text-align: center;
+  transition: box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feature-card-number {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 18px;
+  align-self: flex-start;
+}
+
+.feature-card-icon {
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 40px;
+  justify-content: flex-start;
+}
+
+.icon-bar {
+  width: 36px;
+  height: 6px;
+  background: #111;
+  border-radius: 2px 2px 0 0;
+  margin-bottom: 4px;
+}
+
+.icon-square {
+  width: 36px;
+  height: 20px;
+  border-radius: 0 0 6px 6px;
+}
+
+.feature-card-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin: 0 0 14px 0;
+  color: #111;
+}
+
+.feature-card-desc {
+  color: #444;
+  font-size: 1rem;
+  margin: 0;
+  line-height: 1.5;
+}
