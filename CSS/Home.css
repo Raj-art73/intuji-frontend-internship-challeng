@@ -959,3 +959,131 @@ top: 1952px;
       margin-bottom: 16px;
       color: #222;
     }
+
+
+
+   
+
+.testimonials-section {
+  background: #fafbfc;
+  padding: 80px 0 100px 0;
+  text-align: left;
+  position: relative;
+}
+
+.testimonials-header {
+  max-width: 900px;
+  margin: 0 auto 40px auto;
+  position: relative;
+}
+
+.testimonials-header h2 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 18px;
+}
+
+.testimonials-header p {
+  color: #444;
+  font-size: 1.15rem;
+  margin-bottom: 0;
+  max-width: 600px;
+}
+
+.testimonial-decor {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  width: 90px;
+  height: auto;
+  z-index: 1;
+}
+
+.cards {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #fff;
+  border: 1.5px solid #e6e6e6;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  padding: 32px 32px 24px 32px;
+  max-width: 500px;
+  min-width: 320px;
+  height: 250px;
+  margin-left: 200px;
+  flex: 1 1 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  gap: 20rem;
+}
+
+
+.testimonial-quote {
+  position: absolute;
+  /* top: -5px; */
+  bottom: 290px;
+  left: 18px;
+  background: #111;
+  color: #fff;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  z-index: 2;
+}
+
+.testimonial-content {
+  display: flex;
+  align-items: center;
+  /* margin-bottom: 1000px; */
+  margin-top: -10px;
+  /* margin-left: -5px; */
+}
+
+/* .testimonial-text {
+  font-size: 1.08rem;
+  color: #222;
+  flex: 1;
+} */
+
+.testimonial-img {
+  width: 150px;
+  height: 250px;
+  margin-left: 100px;
+  object-fit: cover;
+  background: #e0e0e0;
+}
+
+/* .testimonial-author {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #222;
+  font-weight: 500;
+} */
+
+@media (max-width: 900px) {
+  .testimonials-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  .testimonials-header {
+    text-align: center;
+  }
+  .testimonial-decor {
+    position: static;
+    display: block;
+    margin: 0 auto 20px auto;
+  }
+}
