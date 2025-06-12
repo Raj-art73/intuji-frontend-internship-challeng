@@ -675,7 +675,7 @@ top: 1952px;
   font-size: 1.05rem;
   margin-bottom: 18px;
 }
-.testimonial-card {
+.wish {
   background: #fff;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.07);
@@ -999,7 +999,7 @@ top: 1952px;
   z-index: 1;
 }
 
-.cards {
+.testimonial-cards {
   display: flex;
   gap: 32px;
   justify-content: center;
@@ -1007,7 +1007,7 @@ top: 1952px;
   flex-wrap: wrap;
 }
 
-.card {
+.testimonial-card {
   background: #fff;
   border: 1.5px solid #e6e6e6;
   border-radius: 14px;
@@ -1048,14 +1048,10 @@ top: 1952px;
   align-items: center;
   /* margin-bottom: 1000px; */
   margin-top: -10px;
-  /* margin-left: -5px; */
+  
 }
 
-/* .testimonial-text {
-  font-size: 1.08rem;
-  color: #222;
-  flex: 1;
-} */
+
 
 .testimonial-img {
   width: 150px;
@@ -1065,12 +1061,7 @@ top: 1952px;
   background: #e0e0e0;
 }
 
-/* .testimonial-author {
-  margin-top: 10px;
-  font-size: 1rem;
-  color: #222;
-  font-weight: 500;
-} */
+
 
 @media (max-width: 900px) {
   .testimonials-cards {
@@ -1086,4 +1077,73 @@ top: 1952px;
     display: block;
     margin: 0 auto 20px auto;
   }
+}
+
+
+
+
+
+
+
+.stats-section {
+  background: #2d2dbf;
+  color: #fff;
+  padding: 40px 0;
+  margin: 40px 0;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.stats-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.stats-info {
+  flex: 1 1 200px;
+  font-size: 1.1rem;
+  opacity: 0.8;
+  padding-left: 24px;
+  min-width: 180px;
+}
+
+.stats-items {
+  display: flex;
+  flex: 3 1 600px;
+  justify-content: space-around;
+  width: 100%;
+  gap: 40px;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 160px;
+}
+
+.stat-value {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.stat-label {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  opacity: 0.9;
+}
+
+.stat-label i {
+  color: #ffe066;
+  font-size: 1.1rem;
 }
